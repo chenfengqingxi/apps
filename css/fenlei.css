@@ -1,0 +1,253 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-06 16:35:00
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 17:52:29
+*/
+@import url("base.css");
+@font-face {
+  font-family: 'iconfont';  /* project id 533114 */
+  src: url('http://at.alicdn.com/t/font_533114_dp8je13fifqolxr.eot');
+  src: url('http://at.alicdn.com/t/font_533114_dp8je13fifqolxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_533114_dp8je13fifqolxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_533114_dp8je13fifqolxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_533114_dp8je13fifqolxr.svg#iconfont') format('svg');
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 531111 */
+  src: url('http://at.alicdn.com/t/font_531111_f6jgxf0dkon4gqfr.eot');
+  src: url('http://at.alicdn.com/t/font_531111_f6jgxf0dkon4gqfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_531111_f6jgxf0dkon4gqfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_531111_f6jgxf0dkon4gqfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_531111_f6jgxf0dkon4gqfr.svg#iconfont') format('svg');
+}
+
+
+.iconfont{font-family: 'iconfont';}
+
+
+
+header{
+   height: 1rem;
+   width: 100%;
+   display: flex;
+   background: #666;
+   justify-content: space-between;
+   padding: 0.3rem 0.22rem;
+   box-sizing: border-box;
+}
+.icon1{
+	display: block;
+	font-size: 0.35rem;
+	color: #fff;
+	font-style: normal;
+}
+.headright{
+	display: block;
+	font-size: 0.35rem;
+	color: #fff;
+}
+.first{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+}
+.first1{
+	display: block;
+	margin-top: 0.3rem;
+	font-size: 0.35rem;
+	color: #000;
+	margin-left: 0.2rem;
+}
+.twice{
+	height: 4.04rem;
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+.twice img{
+	width: 100%;
+	height: 100%;
+	display: block;
+/* 	opacity: 0.7; */
+}
+.mengban{
+	width: 100%;
+	height: 4.04rem;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: -0rem;
+	left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding: 0 0.12rem;
+	justify-content: space-between;
+	align-content: space-around;
+}
+.hezi1{
+	display: block;
+	width: 2rem;
+	height: 1.52rem;
+	background: rgba(255, 255, 255, 0.85);
+	border-radius: 0.1rem;
+
+}
+.hezi2{
+	height: 1.52rem;
+	width: 4rem;
+/* 	background: rgba(255, 255, 255, 0.7); */
+	border-radius: 0.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+
+}
+.hezi3{
+	height: 1.52rem;
+	width: 100%;
+/* 	background: rgba(255, 255, 255, 0.7); */
+	border-radius: 0.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+
+}
+.hezi4{
+	height: 0.8rem;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.85);
+	border-radius: 0.1rem;
+}
+.hezi11{
+	display: block;
+	width: 1.96rem;
+	height: 0.72rem;
+/* 	background: black; */
+	border-radius: 0.1rem;
+	background: rgba(255, 255, 255, 0.85);
+}
+.tab{
+	width: 100%;
+	height:0.8rem;
+	display: flex;
+	padding: 0 0.3rem;
+	justify-content: space-between;
+	box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 111;
+	background: white;
+	margin-top: 0.6rem;
+/* 	background: black; */
+}
+.taotop{
+	width: 100%;
+	height: 0.8rem;
+
+}
+.icon6_wenzi{
+	font-size: 0.2rem;
+	color:#333;
+
+
+}
+.tabicon{
+	display: block;
+	/* width: 0.1rem;
+	height: 0.1rem; */
+/* 	background: black; */
+}
+.icon6{
+	display: block;
+	font-size: 0.4rem;
+	color: #090909;
+	font-style: normal;
+}
+.icon7{
+	color: #f5cb05;
+}
+.wenzi{
+	font-size: 0.35rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.5rem;
+
+}
+.wenzi1{
+	font-size: 0.35rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.15rem;
+}
+.wenzi2{
+	font-size: 0.35rem;
+	color: #000;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.first2{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.first3{
+	display: block;
+	margin-top: 0.3rem;
+	font-size: 0.35rem;
+	color: #000;
+	margin-left: 0.2rem;
+}
+.firse4{
+	display: block;
+	margin-top: 0.3rem;
+	font-size: 0.2rem;
+	color: #000;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+}
+span{
+	color: #ffab79;
+}
+.third{
+	height: 4.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.third1{
+	width: 3.17rem;
+	height: 100%;
+	background: #fff;
+}
+.third2{
+	width: 100%;
+	height: 3.2rem;
+/* 	background: black; */
+
+}
+.third2 img{
+	width: 100%;
+	height: 100%;
+}
+.thirdbottom{
+	display: block;
+	font-size: 0.22rem;
+	color: #000;
+    margin-top: 0.15rem;
+    margin-left: 0.1rem;
+}
+.thirdbottom2{
+	display: block;
+	color: #a9a6a6;
+	font-size: 0.22rem;
+	margin-top: 0.15rem;
+	    margin-left: 0.1rem;
+}
+
